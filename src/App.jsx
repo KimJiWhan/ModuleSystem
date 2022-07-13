@@ -1,10 +1,16 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import StartPage from './components/pages/StartPage';
 
 function App() {
   return (
-    <StartPage></StartPage>
-  )
+    <Routes>
+      <Route 
+        exact path= "/"
+        element={ <StartPage /> }
+      />
+    </Routes>
+  );
 }
 
 export default App;
