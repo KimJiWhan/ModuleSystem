@@ -6,6 +6,7 @@ import { RecoilRoot } from 'recoil';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyle from './styles/GlobalStyle';
+import GlobalFonts from './fonts/fonts'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <RecoilRoot>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <GlobalStyle />
+          <GlobalFonts />
         <App />
       </BrowserRouter>
     </RecoilRoot>

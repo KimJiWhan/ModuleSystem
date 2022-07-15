@@ -1,9 +1,21 @@
 import React from "react";
+import styled from "styled-components";
+import Header from "../../module/Header";
 
-function MainTepl(){
+function BaseTepl({ children }){
     return (
-        <div></div>
+        <Container>
+            <Header />
+            {children}
+        </Container>
     );
 }
 
-export default MainTepl;
+export default BaseTepl;
+
+const Container = styled.div`
+    min-width: 1080px;
+    height: auto;
+    
+`;
+
