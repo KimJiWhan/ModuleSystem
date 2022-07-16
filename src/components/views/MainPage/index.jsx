@@ -5,7 +5,7 @@ import BaseTepl from "../../templates/BaseTepl";
 function MainPage() {
     return (
         <BaseTepl>
-
+            asdf
         </BaseTepl>
     );
 }
