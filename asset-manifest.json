@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ModuleSystem/static/css/main.e6c13ad2.css",
+    "main.js": "/ModuleSystem/static/js/main.71974f2c.js",
+    "static/js/787.853e0e99.chunk.js": "/ModuleSystem/static/js/787.853e0e99.chunk.js",
+    "static/media/GodoB.ttf": "/ModuleSystem/static/media/GodoB.ea584ee7fd959b3a712f.ttf",
+    "index.html": "/ModuleSystem/index.html",
+    "main.e6c13ad2.css.map": "/ModuleSystem/static/css/main.e6c13ad2.css.map",
+    "main.71974f2c.js.map": "/ModuleSystem/static/js/main.71974f2c.js.map",
+    "787.853e0e99.chunk.js.map": "/ModuleSystem/static/js/787.853e0e99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.71974f2c.js"
+  ]
+}
