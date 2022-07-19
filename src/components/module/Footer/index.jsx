@@ -5,7 +5,7 @@ import styled from "styled-components";
 function Footer() {
     return(
         <FootBox>
-            <LinkA href="https://www.google.com">Notion HomePage </LinkA>
+            <LinkA href="https://asterisk21.notion.site/572d2cca50d646a9b7e5f7be60011eaf">Notion HomePage </LinkA>
             <Title>제작: 김지환</Title>
         </FootBox>
     )

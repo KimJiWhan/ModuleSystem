@@ -6,7 +6,7 @@ import Footer from "../../module/Footer";
 function BaseTepl({ children, changePage }){
     return (
         <Container>
-            <Header changePage={changePage}/>
+            <Header changePage={changePage} />
             <ChildPart>
                 {children}
             </ChildPart>

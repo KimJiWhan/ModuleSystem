@@ -12,4 +12,6 @@ function IntroPage(){
 
 export default IntroPage;
 
-const Container = styled.div``;
+const Container = styled.div`
+    display: flex;
+`;
