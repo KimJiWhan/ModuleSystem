@@ -3,10 +3,10 @@ import styled from "styled-components";
 import Header from "../../module/Header";
 import Footer from "../../module/Footer";
 
-function BaseTepl({ children }){
+function BaseTepl({ children, changePage }){
     return (
         <Container>
-            <Header />
+            <Header changePage={changePage}/>
             <ChildPart>
                 {children}
             </ChildPart>

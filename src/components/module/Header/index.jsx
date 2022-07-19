@@ -3,12 +3,12 @@ import styled from "styled-components";
 import {Link} from "react-router-dom";
 
 
-function Header() {
+function Header({changePage}) {
     return(
         <HeadBox>
-            <Link to={"/"} style={{ textDecoration : "none" }} >
-                <Title>Module 물품대여 시스템</Title>
-            </Link>
+            <Title onClick = {() => {
+                changePage(0);
+            }}>Module 물품대여 시스템</Title>
 
             <div
                 style = {{
@@ -16,12 +16,12 @@ function Header() {
                     justifyContent: "space-between",
 
                 }}>
-                <Link to={"/example"} style={{ textDecoration : "none" }} >
-                    <Menu>물품대여</Menu>
-                </Link>
-                <Link to={"/"} style={{ textDecoration : "none" }} >
-                    <Menu>공간대여</Menu>
-                </Link>
+                <Menu onClick = {() => {
+                    changePage(1);
+                }}>물품대여</Menu>
+                <Menu onClick= {() => {
+                    changePage(2);
+                }}>공간대여</Menu>
             </div>
 
 
@@ -54,6 +54,8 @@ const Title = styled.p`
     color: #ffffff;
     font-size: 25px;
     font-weight: 500;
+    
+    cursor: pointer;
 `;
 
 const Menu = styled.p`
@@ -66,4 +68,6 @@ const Menu = styled.p`
     color: #ffffff;
     font-size: 25px;
     font-weight: 500;
+    
+    cursor: pointer;
 `;
